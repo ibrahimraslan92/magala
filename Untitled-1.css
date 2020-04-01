@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.raw {  
+    display: flex;
+    justify-content: center;
+    padding: 0% 10px;
+    border: 3px solid black;
+    background-color: blanchedalmond;
+}
+.left {
+    width: 25%;
+    border-right: 1px solid black;
+    
+    padding: 10px;
+}
+.central {
+    width: 50%;
+    padding: 10px;
+    
+    border-right: 1px solid black;
+}
+img {
+    width: 100%;
+}
+.right { 
+    width: 25%;
+    padding: 10px;
+}
+.article-title {
+    font-size: 36px;
+    text-align: center;
+    font-family: fantasy;
+}
+.raw2 {
+    border: 3px solid black;
+    display: flex;
+}
+.below {
+    width: 25%;
+    padding: 10px;
+    border-right: black solid 1px;
+}
+ul{
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0%;
+    margin: 0%;
+}
+.first {
+    border-bottom: hidden;
+    height: 20%;
+background-color: dimgray 
+;    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 36px;
+}
+
+.second { 
+    border-bottom: hidden;
+    height: 20%;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 36px;
+}
+
+.third {
+    border-bottom: hidden;
+    height: 20%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 36px;
+}
+
+
+.fourth {
+    border-bottom: hidden;
+    height: 20%;
+background-color: crimson;  
+  display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 36px;
+}
+
+.fifth {
+    border-bottom: hidden;
+    height: 20%;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 36px;
+    text-underline-position: below;
+}
+.first:hover{
+    background-color: rgb(197, 174, 116);
+    font-size: 40px;
+    
+    text-decoration: none;
+    margin: 4px 2px;
+    
+}
+.second:hover{
+    background-color: rgb(197, 174, 116);
+    font-size: 40px;
+    color: darkgoldenrod;
+    text-decoration: underline;
+    margin: 4px 2px;
+}
+.third:hover{
+    background-color: rgb(197, 174, 116);
+    font-size: 40px;
+    color: darkgoldenrod;
+    text-decoration: underline;
+    margin: 4px 2px;
+}
+.fourth:hover{
+    background-color: rgb(197, 174, 116);
+    font-size: 40px;
+    color: darkgoldenrod;
+    text-decoration: underline;
+    margin: 4px 2px;
+}
+.fifth:hover{
+    background-color: rgb(197, 174, 116);
+    font-size: 40px;
+    color: darkgoldenrod;
+    text-decoration: underline;
+    margin: 4px 2px;
+}
+a{
+    text-decoration: none;
+color:darkorange ;   
+}
+a:visited{
+    color:red;
+
+}
+.sa:hover{
+    color: hotpink;
+}
